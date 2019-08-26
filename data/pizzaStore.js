@@ -14,7 +14,7 @@ const Pizza = pgClient.define('pizza', {
     id: { type: Sequelize.STRING, primaryKey: true },
     name: { type: Sequelize.STRING },
     toppings: { type: Sequelize.STRING },
-    image: { type: Sequelize.STRING },
+    img: { type: Sequelize.STRING },
     username: { type: Sequelize.STRING },
     created: { type: Sequelize.BIGINT }
 });
